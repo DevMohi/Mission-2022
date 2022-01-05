@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+.text-color{
+    color: rgb(27, 129, 104);
+}
+
+.button-space{
+    position: relative;
+    bottom: 10px;
+}
+
+.button-space2{
+    position: relative;
+    top: 10px;
+}
+
+.title-border{
+    border-image: linear-gradient(rgb(124, 233, 209), rgb(27, 90, 105));
+    border-left: 4px solid;
+    border-image-slice: 1;
+   
+}
+
+
+.flexible-container{
+    display: flex;
+    margin-top: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img{
+    width: 50%;
+    padding-left: 100px;
+    position: relative;
+    bottom: 72px;
+    left: 10px;
+
+
+}
+
+.explore-button{
+    text-decoration: none;
+    padding: 15px 50px;
+    background-image: linear-gradient(rgb(124, 233, 209), rgb(27, 90, 105));
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+       
+}
+
+/* Section2  */
+.centered-title{
+    text-align: center;
+}
+
+.three-containers-width{
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+        
+}
+
+.three-containers-width img{
+    width: 50%;  
+}
+
+.border-bgcolor1{
+    
+    border-radius: 10px;
+    background-color: rgba(60, 190, 190, 0.239);
+    margin-left: 170px;
+}
+.border-bgcolor2{
+    border: 5px ;
+    border-radius: 10px;
+    background-color: rgba(15, 98, 231, 0.226);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.border-bgcolor3{
+    border: 5px ;
+    border-radius: 10px;
+    background-color: rgba(138, 208, 255, 0.966);
+    margin-right: 170px;
+}
+
+/* Section 3  */
+
+.develop-banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: 100px;
+    
+    
+}
+
+.documentation-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(rgb(255, 82, 82), rgb(195, 9, 9));
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+    
+}
+
+.third-width{
+    width: 70%;
+    margin-right: 175px;
+    
+}
+
+.third-width img{
+    
+    width: 60%;
+    position: relative;
+    left: 164px;
+}
+    
+    
+    
+/* section 4  */
+
+.fourth-width{
+    width: 70%;
+    margin-left: 175px;
+}
+.fourth-width img{
+    
+    width: 60%;
+    position: relative;
+    right: -108px;
+}
+.community-banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    
+    background-position: 1400px;
+        
+}
+
+/* footer Section  */
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 2px 2px;
+    margin-top: 150px;
+    
+}
