@@ -26,8 +26,8 @@ h1{
     border-image: linear-gradient(rgb(124, 233, 209), rgb(27, 90, 105));
     border-left: 4px solid;
     border-image-slice: 1;
-   
-}
+    
+}   
 
 
 .flexible-container{
@@ -51,7 +51,7 @@ h1{
 
 .explore-button{
     text-decoration: none;
-    padding: 15px 50px;
+    padding: 10px 50px;
     background-image: linear-gradient(rgb(124, 233, 209), rgb(27, 90, 105));
     color: white;
     font-weight: 900;
@@ -107,7 +107,7 @@ h1{
     
 }
 
-.documentation-button{
+.resume-button{
     text-decoration: none;
     padding: 10px 40px;
     background-image: linear-gradient(rgb(255, 82, 82), rgb(195, 9, 9));
@@ -154,12 +154,53 @@ h1{
         
 }
 
+/* contact section  */
+.contact-form{
+    position: relative;
+    bottom: 86px;
+    border-radius: 5px;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding: 50px 30px;
+    padding-bottom: 70px;
+    
+}
+
+.input-decoration{
+    
+    padding: 10px 450px;
+    padding-top: 30px;
+    margin-top: 10px;
+    border: 2px;
+    position: relative;
+    background-color: rgba(175, 175, 175, 0.466);;
+    left: 134px;
+    
+    
+    
+    
+}
+.submit-btn{
+    position: relative;
+    left: 592px;
+    top: 22px;
+    padding: 10px 40px;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 900;
+    border-radius: 5px;
+    border: 0px;
+}
+
+
 /* footer Section  */
 
 footer{
     background-color: black;
     text-align: center;
     padding: 2px 2px;
-    margin-top: 150px;
-    
+    margin-top: 150px;   
 }
+
+
+
+
